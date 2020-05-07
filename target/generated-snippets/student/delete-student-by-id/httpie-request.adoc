@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http DELETE 'http://localhost:8080/univ/v1/students/291' \
+    'Accept:application/json'
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Content-Length: 330
+
+{"id":292,"ci":"12375678911","name":"Gloria","email":"correo@gmail.com","active":true,"firs_name":"Gloria","last_name":"Leyva","_links":{"self":{"href":"http://localhost:8080/univ/v1/students/292"},"students":{"href":"http://localhost:8080/univ/v1/students"},"tutors":{"href":"http://localhost:8080/univ/v1/students/292/tutors"}}}
+----

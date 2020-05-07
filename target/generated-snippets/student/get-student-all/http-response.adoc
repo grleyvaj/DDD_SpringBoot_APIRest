@@ -1,0 +1,11 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Content-Length: 733
+
+{"_embedded":{"studentResponseList":[{"id":34,"ci":"31035347146","name":"Gloria","email":null,"active":true,"firs_name":"Leyva","last_name":"Jerez","_links":{"self":{"href":"http://localhost:8080/univ/v1/students/34"},"students":{"href":"http://localhost:8080/univ/v1/students"},"tutors":{"href":"http://localhost:8080/univ/v1/students/34/tutors"}}},{"id":36,"ci":"31035347136","name":"Gloria","email":null,"active":true,"firs_name":"Leyva","last_name":"Jerez","_links":{"self":{"href":"http://localhost:8080/univ/v1/students/36"},"students":{"href":"http://localhost:8080/univ/v1/students"},"tutors":{"href":"http://localhost:8080/univ/v1/students/36/tutors"}}}]},"_links":{"self":{"href":"http://localhost:8080/univ/v1/students"}}}
+----

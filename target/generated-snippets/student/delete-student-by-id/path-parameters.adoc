@@ -1,0 +1,8 @@
+.+/univ/v1/students/{studentId}+
+|===
+|Parameter|Description
+
+|`+studentId+`
+|The student id of the input to delete
+
+|===
